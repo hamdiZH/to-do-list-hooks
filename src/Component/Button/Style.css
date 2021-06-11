@@ -1,0 +1,38 @@
+.add-btn {
+    width: 25%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid purple;
+    border-radius: 21px;
+    background-color: #FFF;
+    color: #000;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.delete-btn {
+    width: 25%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #f44336;
+    border-radius: 21px;
+    background-color: #FFF;
+    color: #000;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: purple;
+    color: white;
+}
+
+.delete-btn:hover{
+    background-color: #f44336;
+    color: white;
+}
