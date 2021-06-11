@@ -1,0 +1,24 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+    border: #000 0px solid;
+    border-radius: 21px;
+    height: 70px;
+    min-width: 320px;
+    background: rgb(105,116,176);
+    background: linear-gradient(0deg, rgba(105,116,176,1) 0%, rgba(19,30,87,1) 100%);
+}
+
+.item span {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    color: #fff;
+    /*padding: 10px 0px 0px 50px;*/
+}
+
